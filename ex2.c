@@ -49,7 +49,7 @@ int main()
                 long do_ducks = 0, right_order_ducks = 0;
                 printf("please enter the number of ducks:\n");
                 scanf("%d", &num_of_ducks);
-                while((num_of_ducks < 0) || (num_of_ducks > 64)){
+                while((num_of_ducks <= 0) || (num_of_ducks > 64)){
                     printf("Invalid number, please try again\n");
                     scanf("%d", &num_of_ducks);
                 }
